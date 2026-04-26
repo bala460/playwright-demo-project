@@ -1,0 +1,5 @@
+[INFO] 2026-04-26T07:46:43.521Z - Filling input "#username" with text
+[INFO] 2026-04-26T07:46:43.861Z - Filling input "#password" with text
+[INFO] 2026-04-26T07:46:43.995Z - Clicking element "#submit"
+[INFO] 2026-04-26T07:46:44.293Z - Verifying element "#error" contains: "Your username is invalid!"
+[INFO] 2026-04-26T07:46:44.297Z - Getting text from element "#error"

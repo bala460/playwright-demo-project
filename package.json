@@ -1,0 +1,40 @@
+{
+  "name": "playwright-sdet-framework",
+  "version": "1.0.0",
+  "description": "Professional SDET Playwright Testing Framework",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:api": "playwright test --grep @api",
+    "codegen": "playwright codegen",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e",
+    "sdet",
+    "automation"
+  ],
+  "author": "Bala Gopal Pasupuleti",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.3.0",
+    "allure-playwright": "^3.7.1",
+    "dotenv": "^17.3.1",
+    "eslint": "^10.0.0",
+    "prettier": "^3.1.0"
+  }
+}
