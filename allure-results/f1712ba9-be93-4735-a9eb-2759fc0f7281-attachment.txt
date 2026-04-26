@@ -1,3 +1,0 @@
-[INFO] 2026-04-26T12:50:11.298Z - Filling input "#username" with text
-[INFO] 2026-04-26T12:50:11.647Z - Filling input "#password" with text
-[INFO] 2026-04-26T12:50:12.008Z - Clicking element "#submit"
